@@ -1,3 +1,38 @@
 body{
     margin: 0;
+    background-color: black;
+    background-image: url("../images/fondoInicial.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+
+.login{
+    background-color: white;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 1rem;
+    width: 45vw;
+    height: 37vw;
+    padding: 1rem;
+}
+
+.login input{
+    border-radius: 1.2rem;
+    width:70%;
+    height: 3rem;
+    border: solid 0.5px;
+    font-size: 1rem;
+}
+
+.logo{
+    width: 20%;
 }
