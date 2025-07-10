@@ -19,5 +19,5 @@ Usamos [Git](https://git-scm.com/) para el versionado de este proyecto.
 
 _Equipo de trabajo conformado por:_
 
-* **Jhorguen Vargas** [Jhoguen](https://github.com/Jhorguen)
+* **Jhorguen Vargas** [Jhorguen](https://github.com/Jhorguen)
 * **Maria Alejandra Gomez**  [gamaz-19](https://github.com/gamaz-19)
