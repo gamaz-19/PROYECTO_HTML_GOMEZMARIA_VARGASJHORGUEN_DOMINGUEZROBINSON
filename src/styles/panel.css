@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+#anadir{
+    padding-left: 10%;
+}
+
+header > div{
+    display: flex;
+    gap: 5px;
+    width: 10%;
+    height: 10%;
+    margin-right: 0%;
+    margin-left: 4rem;
+}
+
+.account{
+    justify-content: right;
+    gap: 10px;
+}
+
+.center_icon{
+    justify-content: center;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+#center_icon {
+    width: 25%;
+    margin: 10%;
+    justify-content: space-between;
+    padding-right: 10%;
+    align-items: center;
+
+
+}
+
+#pedro{
+    width: 30%;
+    height: 30%;
+    margin-right: 10%
+    ;
+}
