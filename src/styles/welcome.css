@@ -88,6 +88,8 @@ body{
     z-index: -1;
 }
 
+/**Responsive para mobile**/
+
 @media screen and (max-width:650px){
     .kario{
         margin-top: -4.5rem;
