@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel</title>
-    <link rel="stylesheet" href="../src/styles/panel.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles/panel.css">
 </head>
-
 <body>
-
     <header>
-
-        <div id="anadir">
-            <img src="/src/images/plus.svg" alt="">
-            <p>Añadir</p>
-        </div>
-        <div>
-            <img src="/src/images/reload.svg" alt="">
-            <p>Refrescar</p>
-        </div>
-        <div>
-            <img src="/src/images/delete.svg" alt="">
-            <p>Eliminar</p>
+        <div class="add">
+            <img class="icons" src="/src/images/plus.svg" alt="">
+            <p class="text">Añadir</p>
         </div>
 
+        <div class="top">
+            <img class="icons" src="/src/images/reload.svg" alt="">
+            <p class="text">Refescar</p>
+        </div>
 
-        <div class="center_icon">
-            <img id="center_icon" src="/src/images/kario sin kairo.svg" alt="">
+        <div class="top">
+            <img  class="icons" src="/src/images/delete.svg" alt="">
+            <p class="text">Eliminar</p>
         </div>
-        <div>
-            <img src="/src/images/bug.svg" alt="">
-            <p>Reportar</p>
+
+        <div class="top">
+            <img class="middle" src="/src/images/kario sin kairo.svg" alt="">
         </div>
-        <div>
-            <img src="/src/images/help.svg" alt="">
-            <p>Ayuda</p>
+
+        <div class="top">
+            <img  class="icons" src="/src/images/bug.svg" alt="">
+            <p class="text">Reportar</p>
         </div>
+
+        <div class="top">
+            <img  class="icons" src="/src/images/help.svg" alt="">
+            <p class="text">Ayuda</p>
+        </div>
+
         <div class="account">
-            <img src="/src/images/settings.svg" alt="">
-            <img src="/src/images/bell.svg" alt="">
-            <img id="pedro" src="/src/images/pedro.png" alt="">
+            <img class="blackicon" src="/src/images/settings.svg" alt="">
+            <img class="blackicon" src="/src/images/bell.svg" alt="">
+            <img class="pedro" src="/src/images/pedro.png" alt="">
         </div>
     </header>
 
+    <h1 class="panel">Panel de indicadores</h1>
+    <p class="paneltext">Aquí puedes visualizar los indicadores propuestos y añadidos por tu equipo de trabajo.</p>
 
-    <div class="content">
+    <div class="headers">
+        <p class="header1">Indicador</p>
+        <p class="header2">Descripción</p>
+        <p class="header3">Categoría</p>
+        <p class="header4">Fecha de Inicio</p>
+        <p class="header5">Fecha de Terminación</p>
+        <p class="header6">Fórmula</p>
+        <p class="header7">Frecuencia</p>
+        <p class="header8">Cumplimiento</p>
+        <p class="header9">Área</p>
+    </div>
+
+    <div class="indicadoruno">
+        <div class="indica1">
+            <p class="indicador">Modelado 3D</p>
+            <p class="descripcion">Interés por dise.........</p>
+            <p class="categoria">Baja</p>
+            <p class="fechaI">12/05/21</p>
+            <p class="fechaT">12/12/21</p>
+            <p class="formula">Met.Ágil</p>
+            <p class="frecuencia">1/4</p>
+            <p class="cumplimiento">31%</p>
+            <p class="area">Marketing</p>
+        </div>
+        <div id="menu1">
+            <img class="menu1" src="/src/images/menu.svg" alt="">
+        </div>
     </div>
 </body>
-
 </html>

@@ -1,53 +1,187 @@
 body{
-    margin: 0;
+    margin: 0%;
+    background-color:aquamarine;
+    text-align: center;
 }
+
 header{
     display: flex;
-    flex-direction:row;
-    justify-content: space-around;
+    flex-direction: row;
     justify-items: center;
-    align-items: center;
+    justify-content: center;
     border-bottom: solid black 1px;
+    gap: 3vw;
+    font-weight: bold;
+    font-size: 1.2vw;
 }
 
-#anadir{
-    padding-left: 10%;
-}
-
-header > div{
+.add{
+    width: 10vw;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 5px;
-    width: 10%;
-    height: 10%;
-    margin-right: 0%;
-    margin-left: 4rem;
+    padding-left: 5vw;
+
 }
 
 .account{
-    justify-content: right;
-    gap: 10px;
-}
-
-.center_icon{
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    justify-content: space-between;
-
-    align-items: center;
+    gap: 20px;
 }
 
-#center_icon {
-    width: 25%;
-    margin: 10%;
-    justify-content: space-between;
-    padding-right: 10%;
-    align-items: center;
+.middle{
+    width: 3vw;
+    padding-right: 5vw;
+}
+
+.top{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icons{
+    width: 2vw;
+}
+
+.text{
+    font-size: 22px;
+    justify-items: center center;
+    margin: auto;
+    margin-left: 0.5vw;
+}
+
+.blackicon{
+    width: 1.2vw;
+}
+.pedro{
+    width: 3vw;
+}
+
+.panel{
+    font-size: 2vw;
+}
+
+.paneltext{
+    font-size: 1.5vw;
+}
+
+.headers{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    padding-left: 3vw;
+    padding-right: 10vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.header1{
+    grid-column-start: 1;
+    margin-left: 0.5vw;
+}
+.header2{
+    grid-column-start: 2;
+    margin-left: 3vw;
+}
+.header3{
+    grid-column-start: 3;
+}
+.header4{
+    grid-column-start: 4;
+}
+.header5{
+    grid-column-start: 5;
+}
+.header6{
+    grid-column-start: 6;
+}
+.header7{
+    grid-column-start: 7;
+}
+.header8{
+    grid-column-start: 8;
+}
+.header9{
+    grid-column-start: 9;
+}
+
+.indicadoruno{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    background-color: brown;
+    padding-left: 3vw;
+    padding-right: 3vw;
 
 
 }
+.indica1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    gap: 6vw;
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 1;
+    border: solid black 1px;
+    border-radius: 20px;
+    height: 3vw;
+    justify-content: space-evenly;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.2vw;
+    height: 4vw;
+}
 
-#pedro{
-    width: 30%;
-    height: 30%;
-    margin-right: 10%
-    ;
+.indicador{
+    grid-column-start: 1;
+}
+.descripcion{
+    grid-column-start: 2;
+    
+}
+.categoria{
+    grid-column-start: 3;
+}
+.fechaI{
+    grid-column-start: 4;
+}
+.fechaT{
+    grid-column-start: 5;
+}
+.formula{
+    grid-column-start: 6;
+}
+.frecuencia{
+    grid-column-start: 7;
+}
+.cumplimiento{
+    grid-column-start: 8;
+}
+.area{
+    grid-column-start: 9;
+    
+}
+
+#menu1{
+    margin: auto;
+    width: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: green;
+}
+
+.menu1{
+    grid-column-start: 2;
+    margin: auto;
 }
