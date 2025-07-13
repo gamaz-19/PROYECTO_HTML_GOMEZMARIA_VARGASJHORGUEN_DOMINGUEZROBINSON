@@ -138,12 +138,6 @@ a:hover {
     }
 }  
 
-
-@media screen {
-    
-}
-
-/* Teléfonos pequeños */
 @media screen and (max-width: 480px) {
   .login {
     width: 70vw;
