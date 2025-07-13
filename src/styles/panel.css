@@ -204,15 +204,106 @@ header {
     margin-left: -2vw;
 }
 
+
+
+
+/*circulo animado*/
+
 .cumplimiento {
     grid-column-start: 8;
-    margin-left: 1vw;
+    margin-left: -1vw;
+    position: relative;
+    width: 30vw;
+    height: 30vw;
 }
+
+.porcentaje {
+    width: 4vw;
+    height: 4vw;
+    transform: rotate(-90deg);
+    padding-bottom: 30vw;
+    padding-left: 30vw;
+}
+
+.circulo1 {
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo2 {
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 115;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo3 {
+    fill: none;
+    stroke: rgb(3, 224, 3);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 170;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo4 {
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 125;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo5 {
+    fill: none;
+    stroke: rgb(3, 224, 3);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 180;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo6 {
+    fill: none;
+    stroke: rgb(255, 181, 70);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 160;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 88;
+        /* 440 - (440 * 0.8) para 80% */
+    }
+}
+
+.cantidad {
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    transform: translate(-90%, -110%);
+    font-size: 1.2vw;
+}
+
 
 .area {
     grid-column-start: 9;
-    margin-left: -1vw;
-    margin-right: 2vw;
+    margin-left: -50vw;
 }
 
 #menu1 {
@@ -244,7 +335,7 @@ header {
 
 
 
-
+/*Version iphone 10 pro max*/
 
 @media screen and (max-width: 428px) {
     body {
@@ -252,10 +343,21 @@ header {
         margin: 0;
     }
 
-    .add {display: none;}
-    .top {display: none;}
-    .middle {display: none;}
-    .report {display: none;}
+    .add {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .report {
+        display: none;
+    }
 
     header {
         flex-direction: row;
@@ -266,6 +368,10 @@ header {
         border-bottom: 1px solid #ccc;
         justify-content: left;
     }
+
+
+
+    /*Hamburguesa de arriba que despliega menu*/
 
     .menutop {
         position: relative;
@@ -317,7 +423,7 @@ header {
         transform: translateY(0);
     }
 
-    /* Enlaces dentro del menú */
+    /* Enlaces dentro del menu */
     .menu_desplega a {
         display: block;
         padding: 2vw 2vw;
@@ -329,7 +435,9 @@ header {
     }
 
 
-    .text {display: none;}
+    .text {
+        display: none;
+    }
 
     .account {
         width: 15vw;
@@ -382,10 +490,10 @@ header {
         display: flex;
         flex-direction: row;
         gap: 2vw;
-        font-size: 3vw;
         text-align: left;
         margin: auto;
         align-items: center;
+        background-color: #f8f8f8;
     }
 
     .indicador {
@@ -396,16 +504,128 @@ header {
         text-align: left;
         display: flex;
         flex-direction: column;
+        font-weight: 5vw;
+        font-weight: lighter;
     }
 
     .cumplimiento {
-        width: 80vw;
         margin: 0;
         padding: 0;
-        text-align: left;
+        text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        grid-column-start: 8;
+        position: relative;
+        width: 20vw;
+        height: 10vw;
+        align-items: center;
     }
+
+    .porcentaje {
+        width: 20vw;
+        height: 50vw;
+        transform: rotate(-90deg);
+        padding-left: 6vw;
+        padding-top: 75vw;
+        text-align: center;
+    }
+
+    .circulo1 {
+        fill: none;
+        stroke: red;
+        stroke-width: 1vw;
+        stroke-dasharray: 124;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo2 {
+        fill: none;
+        stroke: red;
+        stroke-width: 1vw;
+        stroke-dasharray: 115;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo3 {
+        fill: none;
+        stroke: rgb(3, 224, 3);
+        stroke-width: 1vw;
+        stroke-dasharray: 170;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo4 {
+        fill: none;
+        stroke: red;
+        stroke-width: 1vw;
+        stroke-dasharray: 125;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo5 {
+        fill: none;
+        stroke: rgb(3, 224, 3);
+        stroke-width: 1vw;
+        stroke-dasharray: 180;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo6 {
+        fill: none;
+        stroke: rgb(255, 181, 70);
+        stroke-width: 1vw;
+        stroke-dasharray: 160;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    @keyframes rellenar {
+        to {
+            stroke-dashoffset: 88;
+            /* 440 - (440 * 0.8) para 80% */
+        }
+    }
+
+    .cantidad {
+        position: absolute;
+        top: 4vw;
+        left: 11vw;
+        transform: translate(-10%, -0%);
+        font-size: 2vw;
+        font-weight: lighter;
+    }
+
+
+
 
     .descripcion {
         display: none;
