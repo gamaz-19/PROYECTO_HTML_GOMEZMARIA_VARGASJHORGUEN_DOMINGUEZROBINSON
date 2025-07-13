@@ -1,0 +1,307 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+header div{
+    display: flex;
+    gap: 5px;
+    width: 10%;
+    height: 10%;
+    margin-right: 0%;
+    margin-left: 6%;
+}
+
+.cuenta_opciones{
+    justify-content: right;
+    gap: 10%;
+}
+
+.Logo{
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Titulo{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.agregar_proyecto{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.conteiner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: rgb(255, 144, 33) ;
+    background-color: rgb(242, 242, 242) ;
+    width: 80rem;
+    height: 30rem;
+    overflow: hidden;
+    align-items: baseline;
+}
+
+textarea{
+    border-radius: 10px;
+    border-color: grey
+}
+
+.Subtitulos h4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.Subtitulos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -4%;
+    margin-bottom: 5%;
+}
+
+.Formula{
+    background-image: url(../images/Triangulo.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 20px;
+    rotate: 180deg;
+}
+
+.Area{
+    background-image: url(../images/Triangulo.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 20px;
+    rotate: 180deg;
+}
+
+.Fecha{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: auto;
+}
+
+.Inicio{
+    margin-left:-25%;
+}
+
+.Fin{
+    margin-left: 4.6rem;
+}
+
+.Inicio h4{
+    margin: 0%;
+    margin-left: 10%;
+}
+
+.Fin h4{
+    margin: 0%;
+    margin-left: 15%;
+}
+
+.Cumplimiento{
+    background-image: url(../images/Triangulo.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 20px;
+    rotate: 180deg;
+}
+
+.Categoria{
+    background-image: url(../images/Triangulo.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 20px;
+    rotate: 180deg;
+}
+
+.Subtitulos_izquierda{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Subtitulos_izquierda h4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.Añadir_elementos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: rgb(255, 144, 33);
+    width: 14rem;
+    height: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botom{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:650px){
+    header{
+        background-image: url(../images/Regresar.png);
+        background-repeat: no-repeat;
+        background-size: 2rem;
+        background-position: 5%;
+        justify-content: end;
+    }
+
+    .pedrox2{
+        border: 2px solid rgb(255, 144, 33) ;
+        border-radius: 30px;
+    }
+
+    .conteiner{
+        display: grid;
+        width: 24rem;
+        height: 34rem;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Añadir{
+        display: none;
+    }
+    .Delete{
+        display: none;
+    }
+    .Logo{
+        display: none;
+    }
+    .Ayuda{
+        display: none;
+    }
+    .Reload{
+        display: none;
+    }
+    .reportar{
+        display: none;
+    }
+    .agregar_proyecto{
+        display: none;
+    }
+
+    .Subtitulos{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0%;
+
+    }
+
+    .Indicador{
+        width: 20rem;
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+    }
+
+    .Descripcion textarea{
+        width: 20rem;
+        height: 3rem;
+    }
+
+    .Descripcion{
+        height: 4rem;
+        width: 13rem;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+
+    .Subtitulos_izquierda{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .Fecha_Fin{
+        width: 9.7rem;
+    }
+
+    .Fin{
+        margin-left: 1rem;
+        margin-top: -25rem;
+    }
+    .Fecha_inicio{
+        margin-left: auto;
+        margin-right: auto;
+        width: 9rem;
+    }
+    .Inicio{
+        position: relative;
+        margin-top: -25rem;
+    }
+    .text_categoria textarea{
+        width: 20rem;
+    }
+
+    .text_categoria{
+        text-align: left;
+        margin-top: -23rem;
+    }
+
+    .text_Cumplimiento textarea{
+        width: 9rem;
+        background-image: none;
+    }
+    .text_Cumplimiento{
+        margin-top: -17rem;
+    }
+
+    .text_Frecuencia textarea{
+        width: 9rem;
+    }
+
+    .text_Frecuencia{
+        margin-left: 11rem;
+        margin-top: -15.87rem;
+
+    }
+
+    .text_Formula textarea{
+        margin-left: 1.6rem;
+        width: 20rem;
+    }
+    .text_Formula{
+        margin-left: -22rem;
+        margin-top: 15rem;
+    }
+
+    .text_Area textarea{
+        width: 20rem;
+    }
+    .text_Area{
+        margin-top: 1rem;
+        margin-left: -20.4rem;
+    }
+}
+    
