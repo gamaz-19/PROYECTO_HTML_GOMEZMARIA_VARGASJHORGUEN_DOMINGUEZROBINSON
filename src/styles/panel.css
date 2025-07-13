@@ -15,7 +15,7 @@ header {
     font-size: 1.2vw;
 }
 
-#menutop {
+.menutop {
     display: none;
 }
 
@@ -250,82 +250,117 @@ header {
     body {
         padding: 0;
         margin: 0;
-        background-color: aquamarine;
     }
+
+    .add {display: none;}
+    .top {display: none;}
+    .middle {display: none;}
+    .report {display: none;}
 
     header {
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
+        padding: 2vw 3vw;
         gap: 0;
-        font-size: 14px;
+        font-size: 2vw;
         border-bottom: 1px solid #ccc;
+        justify-content: left;
     }
 
-    #menutop {
-        display: flex;
-    }
-
-    .text {
-        display: none;
-    }
-
-    .add::before{display: none;}
-
-    .top {}
-
-    .middle {}
-
-    .report {}
-
-    .menutop:{
+    .menutop {
         position: relative;
         display: inline-block;
+        margin-top: 1vw;
     }
 
-    .menutop-content {
+    .menutop1 {
+        width: 6vw;
+    }
+
+    /* Ocultar que se muestre el checkbox */
+    .click {
+        display: none;
+    }
+
+    .menu_btn {
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Contenido desplegable */
+    .menu_desplega {
         display: none;
         position: absolute;
-        background: white;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        min-width: max-content;
+        overflow: hidden;
+        top: 0%;
+        left: 100%;
+        opacity: 0;
+        width: 80vw;
+        margin: auto;
     }
 
-    .menutop:hover .menutop-content {
+    /* Cuando está seleccionado*/
+    .click:checked~.menu_desplega {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Enlaces dentro del menú */
+    .menu_desplega a {
         display: block;
+        padding: 2vw 2vw;
+        text-decoration: none;
+    }
+
+    .iconsTopD {
+        width: 4.5vw;
     }
 
 
-
+    .text {display: none;}
 
     .account {
-        width: 3vw;
+        width: 15vw;
         margin: 0;
         gap: 2vw;
-        justify-content: space-between;
+        justify-content: space-around;
+        margin-left: 65vw;
     }
 
     .blackicon {
-        width: 2vw;
-        height: 2vw;
+        width: 3vw;
+        height: 3vw;
+        margin: auto;
     }
 
     .pedro {
-        width: 3vw;
-        height: 3vw;
-        border-radius: 50%;
+        width: 5vw;
+        height: 5vw;
+        border-radius: 2px;
+        border-color: rgb(251, 99, 43);
+        border-width: 1px;
     }
 
     .panel {
-        font-size: 4vw;
-        margin: 2vw 0 1vw 0;
+        font-size: 5vw;
+        margin: 8vw 0 1vw 0;
     }
 
     .paneltext {
-        font-size: 14px;
-        margin: 0 2vw 2vw 2vw;
+        font-size: 3vw;
+        margin: 4vw 10vw 5vw 12vw;
     }
 
     .headers {
@@ -335,30 +370,32 @@ header {
     .indicadoruno {
         display: flex;
         padding: 0 5vw;
-        margin-bottom: 3vw;
+        margin-bottom: 2vw;
     }
 
     .indica1 {
-        width: 70vw;
-        height: auto;
-        padding: 20px;
-        border: 2px solid rgb(246, 88, 30);
-        border-radius: 15px;
+        width: 60vw;
+        height: 8vw;
+        padding: 2vw;
+        border: 1px solid rgb(178, 178, 178);
+        border-radius: 3vw;
         display: flex;
         flex-direction: row;
-        gap: 15px;
-        font-size: 14px;
+        gap: 2vw;
+        font-size: 3vw;
         text-align: left;
+        margin: auto;
+        align-items: center;
     }
 
     .indicador {
         width: 80vw;
         margin: 0;
-        padding: 0;
+        padding-left: 4vw;
+        padding-right: 5vw;
         text-align: left;
         display: flex;
         flex-direction: column;
-        gap: 2vw;
     }
 
     .cumplimiento {
@@ -368,7 +405,6 @@ header {
         text-align: left;
         display: flex;
         flex-direction: column;
-        gap: 2vw;
     }
 
     .descripcion {
@@ -402,13 +438,13 @@ header {
     .indicador {
         font-weight: bold;
         font-size: 3vw;
-        color: #666;
+        color: black;
     }
 
     .cumplimiento {
         font-weight: bold;
         font-size: 3vw;
-        color: #666;
+        color: black;
     }
 
     #menu1 {
@@ -417,6 +453,7 @@ header {
 
     .menu1 {
         width: 4vw;
+        margin-left: 0vw;
     }
 
     .add_elements {
