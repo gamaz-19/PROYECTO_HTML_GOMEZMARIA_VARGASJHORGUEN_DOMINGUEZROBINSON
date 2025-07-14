@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    gap: 3vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.menutop {
+    display: none;
+}
+
+.add {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 8.5vw;
+}
+
+.account {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle {
+    width: 2.5vw;
+    padding-left: 1vw;
+}
+
+.report {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 10vw;
+}
+
+.top {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icons {
+    width: 2vw;
+}
+
+.text {
+    font-size: 1.2vw;
+    justify-items: center center;
+    margin: auto;
+    margin-left: 0.5vw;
+}
+
+.blackicon {
+    width: 1.2vw;
+    margin: 0.5vw;
+}
+
+.pedro {
+    width: 3vw;
+    background-color:#ff7221;
+    padding: 0.2vw;
+    border-radius: 50%;
+}
+
+.panel {
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+.block{
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 65vw;
+    height: 24vw;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7221;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+}
+
+.item1{
+    grid-column: 1/2;
+    text-align: left;
+    margin: auto;
+}
+.item2{
+    grid-column: 2/3;
+    text-align: left;
+    margin: auto;
+}
+.item3{
+    grid-column: 1/2;
+    text-align: left;
+    margin: auto;
+}
+.item4{
+    grid-column: 2/3;
+    text-align: left;
+}
+.item5{
+    grid-column: 1/2;
+    text-align: left;
+    margin: auto;
+}
+.item6{
+    grid-column: 2/3;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+
+
+.add_elements {
+    width: 14vw;
+    height: 3.5vw;
+    padding: 1vw;
+    background-color: rgb(246, 88, 30);
+    margin: auto;
+    border-radius: 30px;
+    font-size: 1.2vw;
+    color: white;
+    border: 0px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
