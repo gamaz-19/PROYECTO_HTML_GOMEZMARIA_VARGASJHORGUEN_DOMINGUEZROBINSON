@@ -40,7 +40,6 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
 }
 
 .middle {
@@ -78,10 +77,14 @@ a{
 
 .blackicon {
     width: 1.2vw;
+    margin: 0.5vw;
 }
 
 .pedro {
     width: 3vw;
+    background-color: orangered;
+    padding: 0.2vw;
+    border-radius: 50%;
 }
 
 .panel {
@@ -305,23 +308,25 @@ a{
     font-size: 1.2vw;
 }
 
-
 .area {
     grid-column-start: 9;
     margin-left: -50vw;
 }
 
 #menu1 {
+    grid-column-start: 2;
     margin: auto;
     width: 2vw;
     padding-left: 1vw;
     padding-right: 1vw;
+    padding-top: 1vw;
 }
 
 .menu1 {
     grid-column-start: 2;
     margin: auto;
     width: 2vw;
+    height: auto;
 }
 
 .add_elements {
@@ -374,7 +379,11 @@ a{
         justify-content: left;
     }
 
-
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
 
     /*Hamburguesa de arriba que despliega menu*/
 
@@ -445,25 +454,27 @@ a{
     }
 
     .account {
+        display: flex;
+        flex-direction: row;
         width: 15vw;
         margin: 0;
-        gap: 2vw;
+        gap: 20vw;
         justify-content: space-around;
-        margin-left: 65vw;
+        margin-left: 55vw;
     }
 
     .blackicon {
         width: 3vw;
         height: 3vw;
-        margin: auto;
+        margin: 2vw;
     }
 
     .pedro {
-        width: 5vw;
-        height: 5vw;
-        border-radius: 2px;
-        border-color: rgb(251, 99, 43);
-        border-width: 1px;
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        background-color:rgb(251, 99, 43);
+        padding: 0.3vw;
     }
 
     .panel {
@@ -629,9 +640,6 @@ a{
         font-weight: lighter;
     }
 
-
-
-
     .descripcion {
         display: none;
     }
@@ -687,5 +695,10 @@ a{
         margin: 2vw;
         font-size: 3vw;
         font-weight: bold;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-left: 30vw;
     }
+
 }
