@@ -10,35 +10,70 @@
 
 <body>
     <header>
-        <div class="Añadir">
-            <img src="../src/images/plus.svg" alt="">
-            <p>Añadir</p>
-        </div>
-        <div class="Reload">
-            <img src="../src/images/reload.svg" alt="">
-            <p>Reload</p>
-        </div>
-        <div class="Delete">
-            <img src="../src/images/delete.svg" alt="">
-            <p>Delete</p>
+        <!--Para iPhone 14 Pro Max (428px width) -->
+        <div class="menutop">
+            <input type="checkbox" id="click" class="click">
+            <label for="click" class="menu_btn">
+                <img class="menutop1" src="../src/images/menu.svg" alt="">
+            </label>
+            <div class="menu_desplega">
+                <a href="#"><img class="iconsTopD" src="../src/images/plus.svg" alt=""></a>
+                <a href="#"><img class="iconsTopD" src="../src/images/reload.svg" alt=""></a>
+                <a href="#"><img class="iconsTopD" src="../src/images/delete.svg" alt=""></a>
+                <a href="#"><img class="iconsTopD" src="../src/images/bug.svg" alt=""></a>
+                <a href="#"><img class="iconsTopD" src="../src/images/help.svg" alt=""></a>
+            </div>
         </div>
 
+        <!--Para Desktop (1920x1080 width)-->
 
-        <div class="Logo">
-            <img src="../src/images/kario sin kairo.svg" alt="" height="35">
+        <div class="add">
+            <a href="../pages/añadir.html">
+                <img class="icons" src="../src/images/plus.svg" alt="">
+                <p class="text">Añadir</p>
+            </a>
         </div>
-        <div class="reportar">
-            <img src="../src/images/bug.svg" alt="">
-            <p>reportar</p>
+
+        <div class="top">
+            <a href="">
+                <img class="icons" src="../src/images/reload.svg" alt="">
+                <p class="text">Refescar</p>
+            </a>
         </div>
-        <div class="Ayuda">
-            <img src="../src/images/help.svg" alt="">
-            <p>Ayuda</p>
+
+        <div class="top">
+            <a href="../pages/delete.html">
+                <img class="icons" src="../src/images/delete.svg" alt="">
+                <p class="text">Eliminar</p>
+            </a>
         </div>
-        <div class="cuenta_opciones">
-            <img src="../src/images/settings.svg" alt="">
-            <img src="../src/images/bell.svg" alt="">
-            <img class="pedrox2" src="../src/images/pedrox2.png" alt="" width="50">
+
+        <div class="top">
+            <a href="../pages/welcome.html">
+                <img class="middle" src="../src/images/kario sin kairo.svg" alt="">
+            </a>
+        </div>
+
+        <div class="report">
+            <a href="../pages/report.html">
+                <img class="icons" src="../src/images/bug.svg" alt="">
+                <p class="text">Reportar</p>
+            </a>
+        </div>
+
+        <div class="top">
+            <a href="../pages/help.html">
+                <img class="icons" src="../src/images/help.svg" alt="">
+                <p class="text">Ayuda</p>
+            </a>
+        </div>
+
+        <div class="account">
+            <a href="">
+                <img class="blackicon" src="../src/images/settings.svg" alt="">
+                <img class="blackicon" src="../src/images/bell.svg" alt="">
+                <img class="pedro" src="../src/images/pedro.png" alt="">
+            </a>
         </div>
     </header>
 
