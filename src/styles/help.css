@@ -15,11 +15,12 @@ header {
     font-size: 1.2vw;
 }
 
-a{
+a {
     display: flex;
     text-decoration: none;
     color: black;
 }
+
 .menutop {
     display: none;
 }
@@ -82,7 +83,7 @@ a{
 
 .pedro {
     width: 3vw;
-    background-color:#ff7221;
+    background-color: #ff7221;
     padding: 0.2vw;
     border-radius: 50%;
 }
@@ -91,12 +92,13 @@ a{
     font-size: 2vw;
     margin: 2vw;
 }
+
 .panel2 {
     font-size: 2vw;
     margin: 2vw;
 }
 
-.firstblock{
+.firstblock {
     background-color: #f2f2f2;
     margin: auto;
     width: 60vw;
@@ -107,7 +109,7 @@ a{
     border-color: #ff7221;
 }
 
-.preguntas{
+.preguntas {
     background-color: white;
     margin: auto;
     margin-bottom: 2vw;
@@ -120,18 +122,20 @@ a{
     border-radius: 2vw;
     border-color: rgba(0, 0, 0, 0.633);
 }
-.arrowDown{
+
+.arrowDown {
     width: 1vw;
     height: 1vw;
     margin: auto;
     padding-left: 30vw;
 }
-.questions{
+
+.questions {
     font-size: 1.5vw;
     margin: auto;
 }
 
-.secondblock{
+.secondblock {
     display: grid;
     grid-template-columns: auto;
     justify-content: space-evenly;
@@ -139,7 +143,7 @@ a{
     margin-right: 15vw;
 }
 
-.uno{
+.uno {
     grid-column-start: 1;
     display: flex;
     flex-direction: column;
@@ -155,7 +159,8 @@ a{
     border-style: solid;
     border-color: #ff7221;
 }
-.dos{
+
+.dos {
     grid-column-start: 2;
     background-color: #f2f2f2;
     width: 9vw;
@@ -168,7 +173,8 @@ a{
     border-style: solid;
     border-color: #ff7221;
 }
-.tres{
+
+.tres {
     grid-column-start: 3;
     background-color: #f2f2f2;
     width: 9vw;
@@ -182,27 +188,31 @@ a{
     border-color: #ff7221;
 }
 
-.ajustes{
+.ajustes {
     width: 5vw;
     margin-top: 3vw;
     margin-left: 2vw;
 }
-.contactenos{
+
+.contactenos {
     width: 8vw;
     margin-top: -1vw;
 }
-.chat{
+
+.chat {
     width: 5vw;
     margin-top: -1vw;
 }
-.baseTexts{
+
+.baseTexts {
     font-size: 2vw;
     width: 12vw;
     text-align: center;
     margin-left: -1.5vw;
     margin-top: -0.1vw;
 }
-.ajusteTexts{
+
+.ajusteTexts {
     font-size: 2vw;
     width: 12vw;
     text-align: center;
@@ -226,7 +236,7 @@ a{
 }
 
 
-/*Version iphone 10 pro max*/
+/*Version iphone 14 pro max*/
 
 @media screen and (max-width: 480px) {
     body {
@@ -260,11 +270,11 @@ a{
         justify-content: left;
     }
 
-a{
-    display: flex;
-    text-decoration: none;
-    color: black;
-}
+    a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
 
     /*Hamburguesa de arriba que despliega menu*/
 
@@ -354,7 +364,7 @@ a{
         width: 7vw;
         height: 7vw;
         border-radius: 50%;
-        background-color:rgb(251, 99, 43);
+        background-color: rgb(251, 99, 43);
         padding: 0.3vw;
     }
 
@@ -362,7 +372,10 @@ a{
         font-size: 5vw;
         margin: 10vw 0 1vw 0;
     }
-    .panel2 {display: none;}
+
+    .panel2 {
+        display: none;
+    }
 
     .paneltext {
         font-size: 3vw;
@@ -371,7 +384,7 @@ a{
 
 
 
-    .firstblock{
+    .firstblock {
         background-color: #f2f2f2;
         margin: auto;
         margin-top: 8vw;
@@ -382,8 +395,8 @@ a{
         border-style: solid;
         border-color: #ff7221;
     }
-    
-    .preguntas{
+
+    .preguntas {
         background-color: white;
         margin: auto;
         margin-top: 8vw;
@@ -397,18 +410,20 @@ a{
         border-radius: 5vw;
         border-color: rgba(0, 0, 0, 0.633);
     }
-    .arrowDown{
+
+    .arrowDown {
         width: 3vw;
         height: 3vw;
         margin: auto;
         padding-left: 15vw;
     }
-    .questions{
+
+    .questions {
         font-size: 4vw;
         margin: auto;
     }
-    
-    .secondblock{
+
+    .secondblock {
         display: grid;
         grid-template-columns: auto;
         justify-content: space-evenly;
@@ -416,8 +431,8 @@ a{
         margin-right: 15vw;
         margin-top: 5vw;
     }
-    
-    .uno{
+
+    .uno {
         grid-column-start: 1;
         display: flex;
         flex-direction: column;
@@ -433,7 +448,8 @@ a{
         border-style: solid;
         border-color: #ff7221;
     }
-    .dos{
+
+    .dos {
         grid-column-start: 2;
         background-color: #f2f2f2;
         width: 18vw;
@@ -446,7 +462,8 @@ a{
         border-style: solid;
         border-color: #ff7221;
     }
-    .tres{
+
+    .tres {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -462,36 +479,40 @@ a{
         border-color: #ff7221;
 
     }
-    
-    .ajustes{
+
+    .ajustes {
         width: 9vw;
         margin-top: 3vw;
         margin-left: 4vw;
     }
-    .contactenos{
+
+    .contactenos {
         width: 16vw;
         margin-top: 1.5vw;
     }
-    .chat{
+
+    .chat {
         width: 10vw;
         margin-top: 0.5vw;
     }
-    .baseTexts{
+
+    .baseTexts {
         font-size: 3vw;
         width: 12vw;
         text-align: center;
         margin-left: 2vw;
         margin-top: -0.1vw;
     }
-    .ajusteTexts{
+
+    .ajusteTexts {
         font-size: 3vw;
         width: 12vw;
         text-align: center;
         margin-left: 2.5vw;
         margin-top: 1.5vw;
     }
-    
-    
+
+
     .add_elements {
         width: 40vw;
         height: 10vw;
