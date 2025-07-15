@@ -1,10 +1,10 @@
-
-body{
+body {
     background-image: url(../images/fondoInicial.png);
     background-color: black;
 }
+
 /** Rectangulo Principal **/
-.Welcome{
+.Welcome {
     margin: auto;
     position: absolute;
     height: 30rem;
@@ -23,60 +23,73 @@ body{
 }
 
 /** Animacion de Opacidad **/
-  @keyframes Welcome {
-    0%{
+@keyframes Welcome {
+    0% {
         opacity: 1;
     }
 
-    15%{opacity: 1;
-    }
-    40%{
+    15% {
         opacity: 1;
     }
-    80%{
+
+    40% {
         opacity: 1;
     }
-    90%{opacity: 0;}
-}  
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0;
+    }
+}
+
 /** Logo **/
-.kario{
+.kario {
     margin-top: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
+
 /** Primeras palabras **/
-.WelcomeAgain{
+.WelcomeAgain {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     font-size: clamp(1.6rem, 2rem, 5rem);
-    font-family: Arial, Helvetica, sans-serif;;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
 }
+
 /** Pedrito **/
-.Pedrito{
+.Pedrito {
     margin-left: auto;
     margin-right: auto;
 }
+
 /**Nombre**/
-.Nombre{
+.Nombre {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     font-size: clamp(1.4rem, 2rem, 5rem);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /**La ultimas palabras**/
-.Usuario{
+.Usuario {
     margin-bottom: 3rem;
     font-size: 1rem;
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /**Imagen atras del Welcome**/
-.kario_sin_kario{
+.kario_sin_kario {
     width: 14rem;
     position: absolute;
     display: flex;
@@ -90,26 +103,28 @@ body{
 
 /**Responsive para mobile**/
 
-@media screen and (max-width:650px){
-    .kario{
+@media screen and (max-width:428px) {
+    .kario {
         margin-top: -4.5rem;
         padding: 30%;
     }
 
-    .Welcome{
+    .Welcome {
         width: 21rem;
         height: 45rem;
         border: 3px solid rgb(255, 114, 27);
     }
-    .WelcomeAgain{
+
+    .WelcomeAgain {
         font-size: 1rem;
     }
-    .Pedrito{
+
+    .Pedrito {
         height: 12rem;
         width: 12rem;
     }
 
-    .Nombre{
+    .Nombre {
         font-size: 17px;
     }
 }

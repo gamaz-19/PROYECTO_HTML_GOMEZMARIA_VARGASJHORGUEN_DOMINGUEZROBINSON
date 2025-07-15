@@ -345,7 +345,7 @@ a{
 
 
 
-/*Version iphone 10 pro max*/
+/*Version iphone 14 pro max*/
 
 @media screen and (max-width: 428px) {
     body {
@@ -444,6 +444,7 @@ a{
         text-decoration: none;
     }
 
+    
     .iconsTopD {
         width: 4.5vw;
     }
