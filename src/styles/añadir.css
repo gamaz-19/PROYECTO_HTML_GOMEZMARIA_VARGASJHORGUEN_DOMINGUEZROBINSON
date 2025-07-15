@@ -222,17 +222,133 @@ textarea{
 }
 
 @media screen and (max-width:650px){
-    header{
-        background-image: url(../images/Regresar.png);
-        background-repeat: no-repeat;
-        background-size: 2rem;
-        background-position: 5%;
-        justify-content: end;
+    body {
+        padding: 0;
+        margin: 0;
     }
 
-    .pedrox2{
-        border: 2px solid rgb(255, 144, 33) ;
-        border-radius: 30px;
+    .add {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .report {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        align-items: center;
+        padding: 2vw 3vw;
+        gap: 0;
+        font-size: 2vw;
+        border-bottom: 1px solid #ccc;
+        justify-content: left;
+    }
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+    /*Hamburguesa de arriba que despliega menu*/
+
+    .menutop {
+        position: relative;
+        display: inline-block;
+        margin-top: 1vw;
+    }
+
+    .menutop1 {
+        width: 6vw;
+    }
+
+    /* Ocultar que se muestre el checkbox */
+    .click {
+        display: none;
+    }
+
+    .menu_btn {
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Contenido desplegable */
+    .menu_desplega {
+        display: none;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        min-width: max-content;
+        overflow: hidden;
+        top: 0%;
+        left: 100%;
+        opacity: 0;
+        width: 80vw;
+        margin: auto;
+    }
+
+    /* Cuando está seleccionado*/
+    .click:checked~.menu_desplega {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Enlaces dentro del menu */
+    .menu_desplega a {
+        display: block;
+        padding: 2vw 2vw;
+        text-decoration: none;
+    }
+
+    .iconsTopD {
+        width: 4.5vw;
+    }
+
+
+    .text {
+        display: none;
+    }
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        width: 15vw;
+        margin: 0;
+        gap: 20vw;
+        justify-content: space-around;
+        margin-left: 55vw;
+    }
+
+    .blackicon {
+        width: 3vw;
+        height: 3vw;
+        margin: 2vw;
+    }
+
+    .pedro {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        background-color:rgb(251, 99, 43);
+        padding: 0.3vw;
     }
 
     .conteiner{
