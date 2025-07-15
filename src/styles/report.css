@@ -312,6 +312,60 @@ a {
 }
 
 
+
+.account {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+}
+
+.salir {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.opcion {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+    min-width: 160px;
+    margin-top: 0.5vw;
+}
+
+.opcion a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1vw;
+    font-weight: normal;
+    white-space: nowrap;
+    border-bottom: none;
+    transition: background-color 0.2s ease;
+}
+
+.opcion a:hover {
+    background-color: #f8f9fa;
+}
+
+.account:hover .opcion {
+    display: block;
+}
+
+
 /*Version iphone 14 pro max*/
 
 @media screen and (max-width: 428px) {
@@ -644,18 +698,6 @@ a {
         margin-left: 2vw;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     .add_elements {
         width: 40vw;
         height: 10vw;
@@ -668,5 +710,38 @@ a {
         border: 0px;
         margin-top: 5vw;
         margin-bottom: 2vw;
+    }
+
+
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        width: 15vw;
+        margin: 0;
+        gap: 20vw;
+        justify-content: space-around;
+        margin-left: 55vw;
+        position: relative;
+    }
+
+    .salir {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1vw;
+    }
+
+    .opcion {
+        right: -10vw;
+        min-width: 35vw;
+        margin-top: 2vw;
+        border-radius: 3vw;
+    }
+
+    .opcion a {
+        font-size: 6vw;
+        padding: 3vw 4vw;
+        text-align: center;
     }
 }
