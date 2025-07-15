@@ -1,0 +1,530 @@
+body {
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    gap: 3vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.menutop {
+    display: none;
+}
+
+.add {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 8.5vw;
+}
+
+.account {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle {
+    width: 2.5vw;
+    padding-left: 1vw;
+}
+
+.report {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 10vw;
+}
+
+.top {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icons {
+    width: 2vw;
+}
+
+.text {
+    font-size: 1.2vw;
+    justify-items: center center;
+    margin: auto;
+    margin-left: 0.5vw;
+}
+
+.blackicon {
+    width: 1.2vw;
+    margin: 0.5vw;
+}
+
+.pedro {
+    width: 3vw;
+    background-color: #ff7221;
+    padding: 0.2vw;
+    border-radius: 50%;
+}
+
+.panel {
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+.panel2 {
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+.firstblock {
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 60vw;
+    height: 24vw;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7221;
+}
+
+.preguntas {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 2vw;
+    width: 55vw;
+    height: 3.5vw;
+    align-content: center;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2vw;
+    border-color: rgba(0, 0, 0, 0.633);
+}
+
+.arrowDown {
+    width: 1vw;
+    height: 1vw;
+    margin: auto;
+    padding-left: 30vw;
+}
+
+.questions {
+    font-size: 1.5vw;
+    margin: auto;
+}
+
+.secondblock {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.uno {
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    width: 9vw;
+    height: 6vw;
+    margin: 1.5vw 0.5vw 1vw 0.5vw;
+    align-items: center center;
+    padding: 3vw;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7221;
+}
+
+.dos {
+    grid-column-start: 2;
+    background-color: #f2f2f2;
+    width: 9vw;
+    height: 6vw;
+    margin: 1.5vw 0.5vw 1vw 1.5vw;
+    align-items: center center;
+    padding: 3vw;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7221;
+}
+
+.tres {
+    grid-column-start: 3;
+    background-color: #f2f2f2;
+    width: 9vw;
+    height: 6vw;
+    margin: 1.5vw 0.5vw 1vw 1.5vw;
+    align-items: center center;
+    padding: 3vw;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7221;
+}
+
+.ajustes {
+    width: 5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+
+.contactenos {
+    width: 8vw;
+    margin-top: -1vw;
+}
+
+.chat {
+    width: 5vw;
+    margin-top: -1vw;
+}
+
+.baseTexts {
+    font-size: 2vw;
+    width: 12vw;
+    text-align: center;
+    margin-left: -1.5vw;
+    margin-top: -0.1vw;
+}
+
+.ajusteTexts {
+    font-size: 2vw;
+    width: 12vw;
+    text-align: center;
+    margin-left: -1.5vw;
+    margin-top: 0.5vw;
+}
+
+
+.add_elements {
+    width: 14vw;
+    height: 3.5vw;
+    padding: 1vw;
+    background-color: rgb(246, 88, 30);
+    margin: auto;
+    border-radius: 30px;
+    font-size: 1.2vw;
+    color: white;
+    border: 0px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+
+/*Version iphone 14 pro max*/
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .add {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .report {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        align-items: center;
+        padding: 2vw 3vw;
+        gap: 0;
+        font-size: 2vw;
+        border-bottom: 1px solid #ccc;
+        justify-content: left;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+
+    /*Hamburguesa de arriba que despliega menu*/
+
+    .menutop {
+        position: relative;
+        display: inline-block;
+        margin-top: 1vw;
+    }
+
+    .menutop1 {
+        width: 6vw;
+    }
+
+    /* Ocultar que se muestre el checkbox */
+    .click {
+        display: none;
+    }
+
+    .menu_btn {
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Contenido desplegable */
+    .menu_desplega {
+        display: none;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        min-width: max-content;
+        overflow: hidden;
+        top: 0%;
+        left: 100%;
+        opacity: 0;
+        width: 80vw;
+        margin: auto;
+    }
+
+    /* Cuando está seleccionado*/
+    .click:checked~.menu_desplega {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Enlaces dentro del menu */
+    .menu_desplega a {
+        display: block;
+        padding: 2vw 2vw;
+        text-decoration: none;
+    }
+
+    .iconsTopD {
+        width: 4.5vw;
+    }
+
+
+    .text {
+        display: none;
+    }
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        width: 15vw;
+        margin: 0;
+        gap: 20vw;
+        justify-content: space-around;
+        margin-left: 55vw;
+    }
+
+    .blackicon {
+        width: 3vw;
+        height: 3vw;
+        margin: 2vw;
+    }
+
+    .pedro {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        background-color: rgb(251, 99, 43);
+        padding: 0.3vw;
+    }
+
+    .panel {
+        font-size: 5vw;
+        margin: 10vw 0 1vw 0;
+    }
+
+    .panel2 {
+        display: none;
+    }
+
+    .paneltext {
+        font-size: 3vw;
+        margin: 4vw 10vw 5vw 12vw;
+    }
+
+
+
+    .firstblock {
+        background-color: #f2f2f2;
+        margin: auto;
+        margin-top: 8vw;
+        width: 90vw;
+        height: 70vw;
+        border-radius: 6vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ff7221;
+    }
+
+    .preguntas {
+        background-color: white;
+        margin: auto;
+        margin-top: 8vw;
+        margin-bottom: 5vw;
+        width: 85vw;
+        height: 12vw;
+        align-content: center;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        border-radius: 5vw;
+        border-color: rgba(0, 0, 0, 0.633);
+    }
+
+    .arrowDown {
+        width: 3vw;
+        height: 3vw;
+        margin: auto;
+        padding-left: 15vw;
+    }
+
+    .questions {
+        font-size: 4vw;
+        margin: auto;
+    }
+
+    .secondblock {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vw;
+    }
+
+    .uno {
+        grid-column-start: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f2f2f2;
+        width: 18vw;
+        height: 15vw;
+        margin: 1.5vw 0.5vw 1vw 5vw;
+        align-items: center center;
+        padding: 3vw;
+        border-radius: 6vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ff7221;
+    }
+
+    .dos {
+        grid-column-start: 2;
+        background-color: #f2f2f2;
+        width: 18vw;
+        height: 15vw;
+        margin: 1.5vw 0vw 1vw -25vw;
+        align-items: center center;
+        padding: 3vw;
+        border-radius: 6vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ff7221;
+    }
+
+    .tres {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        background-color: #f2f2f2;
+        width: 18vw;
+        height: 15vw;
+        margin: 1.5vw 20vw 2vw 22.5vw;
+        align-items: center center;
+        padding: 3vw;
+        border-radius: 6vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ff7221;
+
+    }
+
+    .ajustes {
+        width: 9vw;
+        margin-top: 3vw;
+        margin-left: 4vw;
+    }
+
+    .contactenos {
+        width: 16vw;
+        margin-top: 1.5vw;
+    }
+
+    .chat {
+        width: 10vw;
+        margin-top: 0.5vw;
+    }
+
+    .baseTexts {
+        font-size: 3vw;
+        width: 12vw;
+        text-align: center;
+        margin-left: 2vw;
+        margin-top: -0.1vw;
+    }
+
+    .ajusteTexts {
+        font-size: 3vw;
+        width: 12vw;
+        text-align: center;
+        margin-left: 2.5vw;
+        margin-top: 1.5vw;
+    }
+
+
+    .add_elements {
+        width: 40vw;
+        height: 10vw;
+        padding: 2vw;
+        background-color: rgb(246, 88, 30);
+        margin: auto;
+        border-radius: 30px;
+        font-size: 3vw;
+        color: white;
+        border: 0px;
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+    }
+
+}

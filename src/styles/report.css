@@ -1,0 +1,672 @@
+body {
+    margin: 0;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    gap: 3vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.menutop {
+    display: none;
+}
+
+.add {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 8.5vw;
+}
+
+.account {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle {
+    width: 2.5vw;
+    padding-left: 1vw;
+}
+
+.report {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 10vw;
+}
+
+.top {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icons {
+    width: 2vw;
+}
+
+.text {
+    font-size: 1.2vw;
+    justify-items: center center;
+    margin: auto;
+    margin-left: 0.5vw;
+}
+
+.blackicon {
+    width: 1.2vw;
+    margin: 0.5vw;
+}
+
+.pedro {
+    width: 3vw;
+    background-color: #ff7221;
+    padding: 0.2vw;
+    border-radius: 50%;
+}
+
+.panel {
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+
+
+.block {
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 75vw;
+    height: 36vw;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7221;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+}
+
+.item1 {
+    grid-column: 1/2;
+    text-align: left;
+    margin: auto;
+}
+
+.item2 {
+    grid-column: 2/3;
+    text-align: left;
+    margin: auto;
+}
+
+.item3 {
+    grid-column: 1/2;
+    text-align: left;
+    margin: auto;
+}
+
+.item4 {
+    grid-column: 2/3;
+    text-align: left;
+}
+
+.item5 {
+    grid-column: 1/2;
+    text-align: left;
+    margin: auto;
+}
+
+.item6 {
+    grid-column: 2/3;
+    text-align: left;
+    margin: auto;
+}
+
+
+.titlesR {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: -1vw;
+}
+
+.titulo {
+    width: 28vw;
+    height: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    color: #4d4d4dac;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    border-radius: 1vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    padding: 1vw;
+    align-content: center;
+    margin-left: 2vw;
+    margin-bottom: -2vw;
+    margin-top: -1vw;
+}
+
+.titlesF {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: -9vw;
+    margin-top: -1vw;
+}
+
+.fecha {
+    width: 14vw;
+    height: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    color: #4d4d4dac;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    border-radius: 1vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    padding: 1vw;
+    align-content: center;
+    margin-left: -10vw;
+    margin-bottom: -2vw;
+    margin-top: -1vw;
+}
+
+.titlesD {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: -3vw;
+}
+
+.descri {
+    width: 28vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 10px;
+    color: #4d4d4dac;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    border-radius: 1vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    padding: 1vw;
+    margin-left: 2vw;
+    margin-bottom: -3vw;
+    margin-top: -1vw;
+}
+
+.titlesP {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: -4vw;
+    margin-top: 0vw;
+    margin-bottom: 0;
+}
+
+.flechaP {
+    width: 2vw;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    border-radius: 1vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    padding: 0.5vw;
+    padding-left: 19vw;
+    margin-left: -5vw;
+    margin-bottom: -3vw;
+}
+
+
+.titlesA {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: -3vw;
+    margin-bottom: -1vw;
+}
+
+.arrowLeft {
+    width: 1.5vw;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    border-radius: 1vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    padding: 0.5vw;
+    padding-left: 28vw;
+    margin-left: 2vw;
+    margin-bottom: -3vw;
+    margin-top: -3vw;
+}
+
+.titlesE {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: -6vw;
+    margin-top: -12vw;
+}
+
+.media {
+    width: 4vw;
+    background-color: white;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+    border-radius: 1vw;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    margin-left: -5vw;
+}
+
+.add_elements {
+    width: 14vw;
+    height: 3.5vw;
+    padding: 1vw;
+    background-color: rgb(246, 88, 30);
+    margin: auto;
+    border-radius: 30px;
+    font-size: 1.2vw;
+    color: white;
+    border: 0px;
+    margin-top: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+
+/*Version iphone 14 pro max*/
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .add {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .report {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        align-items: center;
+        padding: 2vw 3vw;
+        gap: 0;
+        font-size: 2vw;
+        border-bottom: 1px solid #ccc;
+        justify-content: left;
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+
+    /*Hamburguesa de arriba que despliega menu*/
+
+    .menutop {
+        position: relative;
+        display: inline-block;
+        margin-top: 1vw;
+    }
+
+    .menutop1 {
+        width: 6vw;
+    }
+
+    /* Ocultar que se muestre el checkbox */
+    .click {
+        display: none;
+    }
+
+    .menu_btn {
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Contenido desplegable */
+    .menu_desplega {
+        display: none;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        min-width: max-content;
+        overflow: hidden;
+        top: 0%;
+        left: 100%;
+        opacity: 0;
+        width: 80vw;
+        margin: auto;
+    }
+
+    /* Cuando está seleccionado*/
+    .click:checked~.menu_desplega {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Enlaces dentro del menu */
+    .menu_desplega a {
+        display: block;
+        padding: 2vw 2vw;
+        text-decoration: none;
+    }
+
+    .iconsTopD {
+        width: 4.5vw;
+    }
+
+
+    .text {
+        display: none;
+    }
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        width: 15vw;
+        margin: 0;
+        gap: 20vw;
+        justify-content: space-around;
+        margin-left: 55vw;
+    }
+
+    .blackicon {
+        width: 3vw;
+        height: 3vw;
+        margin: 2vw;
+    }
+
+    .pedro {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        background-color: rgb(251, 99, 43);
+        padding: 0.3vw;
+    }
+
+    .panel {
+        font-size: 7vw;
+        margin: 7vw 0 1vw 0;
+    }
+
+
+    .block {
+        background-color: #f2f2f2;
+        margin: auto;
+        margin-top: 8vw;
+        width: 88vw;
+        height: 155vw;
+        border-radius: 6vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ff7221;
+    }
+
+    .item1 {
+        grid-column: 1/2;
+        text-align: left;
+        margin: auto;
+    }
+
+    .item2 {
+        grid-column: 2/3;
+        text-align: left;
+        margin: auto;
+    }
+
+    .item3 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        text-align: left;
+        margin: auto;
+    }
+
+    .item4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: left;
+    }
+
+    .item5 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        text-align: left;
+        margin: auto;
+    }
+
+    .item6 {
+        grid-column: 1/3;
+        text-align: left;
+        margin: auto;
+    }
+
+
+    .titlesR {
+        font-size: 6vw;
+        text-align: left;
+        margin-left: 5vw;
+        margin-top: -1vw;
+    }
+
+    .titulo {
+        width: 45vw;
+        height: 8vw;
+        background-color: white;
+        border-radius: 10px;
+        color: #ffffffac;
+        font-size: 1.5vw;
+        font-weight: lighter;
+        border-radius: 3vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(176, 176, 176);
+        padding: 2vw;
+        align-content: center;
+        margin-left: 2vw;
+        margin-bottom: -2vw;
+        margin-top: -1vw;
+    }
+
+    .titlesF {
+        font-size: 6vw;
+        text-align: right;
+        margin-left: 0vw;
+        margin-top: -1vw;
+    }
+
+    .fecha {
+        width: 20vw;
+        height: 8vw;
+        background-color: white;
+        border-radius: 3vw;
+        color: #ffffffac;
+        font-size: 4vw;
+        font-weight: lighter;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(176, 176, 176);
+        padding: 1.5vw;
+        align-content: right;
+        margin-left: 2vw;
+        margin-bottom: -2vw;
+        margin-top: -1vw;
+    }
+
+    .titlesD {
+        font-size: 6vw;
+        text-align: left;
+        margin-left: 5vw;
+        margin-bottom: 0.5vw;
+    }
+
+    .descri {
+        width: 45vw;
+        height: 44vw;
+        background-color: white;
+        border-radius: 10px;
+        color: #ffffffac;
+        font-size: 1.5vw;
+        font-weight: lighter;
+        border-radius: 3vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(176, 176, 176);
+        padding: 2vw;
+        align-content: center;
+        margin-left: 2vw;
+        margin-bottom: -2vw;
+        margin-top: -1vw;
+    }
+
+    .titlesP {
+        font-size: 6vw;
+        text-align: right;
+        margin-right: 3vw;
+        margin-top: 3vw;
+    }
+
+    .flechaP {
+        width: 5vw;
+        background-color: white;
+        border-radius: 10px;
+        font-weight: lighter;
+        border-radius: 3vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(176, 176, 176);
+        padding: 3.8vw;
+        padding-left: 18vw;
+        margin-left: 2vw;
+        margin-bottom: -3vw;
+    }
+
+
+    .titlesA {
+        font-size: 6vw;
+        text-align: right;
+        margin-right: 3vw;
+        margin-top: 1vw;
+    }
+
+    .arrowLeft {
+        width: 5vw;
+        background-color: white;
+        border-radius: 10px;
+        font-weight: lighter;
+        border-radius: 3vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(176, 176, 176);
+        padding: 3.8vw;
+        padding-left: 18vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+
+    .titlesE {
+        font-size: 6vw;
+        text-align: left;
+        margin-left: -12vw;
+        margin-top: 1vw;
+    }
+
+    .media {
+        width: 14vw;
+        background-color: white;
+        padding-left: 21vw;
+        padding-right: 21vw;
+        padding-bottom: 15vw;
+        padding-top: 15vw;
+        border-radius: 3vw;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(176, 176, 176);
+        margin-left: 2vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .add_elements {
+        width: 40vw;
+        height: 10vw;
+        padding: 2vw;
+        background-color: rgb(246, 88, 30);
+        margin: auto;
+        border-radius: 30px;
+        font-size: 3vw;
+        color: white;
+        border: 0px;
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+    }
+}

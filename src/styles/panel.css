@@ -1,0 +1,704 @@
+body {
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    gap: 3vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.menutop {
+    display: none;
+}
+
+.add {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 8.5vw;
+}
+
+.account {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle {
+    width: 2.5vw;
+    padding-left: 1vw;
+}
+
+.report {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 10vw;
+}
+
+.top {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icons {
+    width: 2vw;
+}
+
+.text {
+    font-size: 1.2vw;
+    justify-items: center center;
+    margin: auto;
+    margin-left: 0.5vw;
+}
+
+.blackicon {
+    width: 1.2vw;
+    margin: 0.5vw;
+}
+
+.pedro {
+    width: 3vw;
+    background-color: orangered;
+    padding: 0.2vw;
+    border-radius: 50%;
+}
+
+.panel {
+    font-size: 2vw;
+}
+
+.paneltext {
+    font-size: 1.5vw;
+}
+
+.headers {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    padding-left: 3vw;
+    padding-right: 10vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.header1 {
+    grid-column-start: 1;
+    margin-left: 2vw;
+}
+
+.header2 {
+    grid-column-start: 2;
+    margin-left: 6vw;
+}
+
+.header3 {
+    grid-column-start: 3;
+    margin-left: 3vw;
+}
+
+.header4 {
+    grid-column-start: 4;
+    margin-left: 3.5vw;
+}
+
+.header5 {
+    grid-column-start: 5;
+    margin-right: -6vw;
+}
+
+.header6 {
+    grid-column-start: 6;
+    margin-left: 7vw;
+}
+
+.header7 {
+    grid-column-start: 7;
+}
+
+.header8 {
+    grid-column-start: 8;
+}
+
+.header9 {
+    grid-column-start: 9;
+    margin-left: 2vw;
+    margin-right: -1vw;
+}
+
+.indicadoruno {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    padding-left: 3vw;
+}
+
+.indica1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    gap: 6vw;
+    grid-column-start: 1;
+    border: solid rgb(141, 141, 141) 1px;
+    border-radius: 30px;
+    height: 3vw;
+    font-size: 1.2vw;
+    height: 4vw;
+    width: 90vw;
+    color: rgb(141, 141, 141) 1px;
+    margin-top: 1vw;
+}
+
+.indicador {
+    grid-column-start: 1;
+    margin-left: 1vw;
+    width: 12vw;
+    text-align: left;
+    margin-bottom: 1vw;
+}
+
+.descripcion {
+    grid-column-start: 2;
+    width: 12vw;
+    margin-left: -5vw;
+    text-align: left;
+}
+
+.categoria {
+    grid-column-start: 3;
+    margin-left: -5vw;
+}
+
+.fechaI {
+    grid-column-start: 4;
+    margin-left: 1vw;
+}
+
+.fechaT {
+    grid-column-start: 5;
+    margin-left: -1vw;
+}
+
+.formula {
+    grid-column-start: 6;
+}
+
+.frecuencia {
+    grid-column-start: 7;
+    margin-left: -2vw;
+}
+
+
+
+
+/*circulo animado*/
+
+.cumplimiento {
+    grid-column-start: 8;
+    margin-left: -1vw;
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+}
+
+.porcentaje {
+    width: 4vw;
+    height: 4vw;
+    transform: rotate(-90deg);
+    padding-bottom: 30vw;
+    padding-left: 30vw;
+}
+
+.circulo1 {
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo2 {
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 115;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo3 {
+    fill: none;
+    stroke: rgb(3, 224, 3);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 170;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo4 {
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 125;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo5 {
+    fill: none;
+    stroke: rgb(3, 224, 3);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 180;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+.circulo6 {
+    fill: none;
+    stroke: rgb(255, 181, 70);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 160;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 88;
+        /* 440 - (440 * 0.8) para 80% */
+    }
+}
+
+.cantidad {
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    transform: translate(-90%, -110%);
+    font-size: 1.2vw;
+}
+
+.area {
+    grid-column-start: 9;
+    margin-left: -50vw;
+}
+
+#menu1 {
+    grid-column-start: 2;
+    margin: auto;
+    width: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+}
+
+.menu1 {
+    grid-column-start: 2;
+    margin: auto;
+    width: 2vw;
+    height: auto;
+}
+
+.add_elements {
+    width: 14vw;
+    height: 3.5vw;
+    padding: 1vw;
+    background-color: rgb(246, 88, 30);
+    margin: auto;
+    border-radius: 30px;
+    font-size: 1.2vw;
+    color: white;
+    border: 0px;
+    margin-top: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+
+
+/*Version iphone 10 pro max*/
+
+@media screen and (max-width: 428px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .add {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .report {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        align-items: center;
+        padding: 2vw 3vw;
+        gap: 0;
+        font-size: 2vw;
+        border-bottom: 1px solid #ccc;
+        justify-content: left;
+    }
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+    /*Hamburguesa de arriba que despliega menu*/
+
+    .menutop {
+        position: relative;
+        display: inline-block;
+        margin-top: 1vw;
+    }
+
+    .menutop1 {
+        width: 6vw;
+    }
+
+    /* Ocultar que se muestre el checkbox */
+    .click {
+        display: none;
+    }
+
+    .menu_btn {
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Contenido desplegable */
+    .menu_desplega {
+        display: none;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        min-width: max-content;
+        overflow: hidden;
+        top: 0%;
+        left: 100%;
+        opacity: 0;
+        width: 80vw;
+        margin: auto;
+    }
+
+    /* Cuando está seleccionado*/
+    .click:checked~.menu_desplega {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Enlaces dentro del menu */
+    .menu_desplega a {
+        display: block;
+        padding: 2vw 2vw;
+        text-decoration: none;
+    }
+
+    .iconsTopD {
+        width: 4.5vw;
+    }
+
+
+    .text {
+        display: none;
+    }
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        width: 15vw;
+        margin: 0;
+        gap: 20vw;
+        justify-content: space-around;
+        margin-left: 55vw;
+    }
+
+    .blackicon {
+        width: 3vw;
+        height: 3vw;
+        margin: 2vw;
+    }
+
+    .pedro {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        background-color:rgb(251, 99, 43);
+        padding: 0.3vw;
+    }
+
+    .panel {
+        font-size: 5vw;
+        margin: 8vw 0 1vw 0;
+    }
+
+    .paneltext {
+        font-size: 3vw;
+        margin: 4vw 10vw 5vw 12vw;
+    }
+
+    .headers {
+        display: none;
+    }
+
+    .indicadoruno {
+        display: flex;
+        padding: 0 5vw;
+        margin-bottom: 2vw;
+    }
+
+    .indica1 {
+        width: 60vw;
+        height: 8vw;
+        padding: 2vw;
+        border: 1px solid rgb(178, 178, 178);
+        border-radius: 3vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        text-align: left;
+        margin: auto;
+        align-items: center;
+        background-color: #f8f8f8;
+    }
+
+    .indicador {
+        width: 80vw;
+        margin: 0;
+        padding-left: 4vw;
+        padding-right: 5vw;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-weight: 5vw;
+        font-weight: lighter;
+    }
+
+    .cumplimiento {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        grid-column-start: 8;
+        position: relative;
+        width: 20vw;
+        height: 10vw;
+        align-items: center;
+    }
+
+    .porcentaje {
+        width: 20vw;
+        height: 50vw;
+        transform: rotate(-90deg);
+        padding-left: 6vw;
+        padding-top: 75vw;
+        text-align: center;
+    }
+
+    .circulo1 {
+        fill: none;
+        stroke: red;
+        stroke-width: 1vw;
+        stroke-dasharray: 124;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo2 {
+        fill: none;
+        stroke: red;
+        stroke-width: 1vw;
+        stroke-dasharray: 115;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo3 {
+        fill: none;
+        stroke: rgb(3, 224, 3);
+        stroke-width: 1vw;
+        stroke-dasharray: 170;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo4 {
+        fill: none;
+        stroke: red;
+        stroke-width: 1vw;
+        stroke-dasharray: 125;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo5 {
+        fill: none;
+        stroke: rgb(3, 224, 3);
+        stroke-width: 1vw;
+        stroke-dasharray: 180;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    .circulo6 {
+        fill: none;
+        stroke: rgb(255, 181, 70);
+        stroke-width: 1vw;
+        stroke-dasharray: 160;
+        stroke-dashoffset: 200;
+        stroke-linecap: round;
+        animation: rellenar 1.5s ease-in-out forwards;
+        r: 3.5vw;
+        cx: 4vw;
+        cy: 5vw;
+    }
+
+    @keyframes rellenar {
+        to {
+            stroke-dashoffset: 88;
+            /* 440 - (440 * 0.8) para 80% */
+        }
+    }
+
+    .cantidad {
+        position: absolute;
+        top: 4vw;
+        left: 11vw;
+        transform: translate(-10%, -0%);
+        font-size: 2vw;
+        font-weight: lighter;
+    }
+
+    .descripcion {
+        display: none;
+    }
+
+    .categoria {
+        display: none;
+    }
+
+    .fechaI {
+        display: none;
+    }
+
+    .fechaT {
+        display: none;
+    }
+
+    .formula {
+        display: none;
+    }
+
+    .frecuencia {
+        display: none;
+    }
+
+    .area {
+        display: none;
+    }
+
+    .indicador {
+        font-weight: bold;
+        font-size: 3vw;
+        color: black;
+    }
+
+    .cumplimiento {
+        font-weight: bold;
+        font-size: 3vw;
+        color: black;
+    }
+
+    #menu1 {
+        display: contents;
+    }
+
+    .menu1 {
+        width: 4vw;
+        margin-left: 0vw;
+    }
+
+    .add_elements {
+        width: 40vw;
+        height: 10vw;
+        margin: 2vw;
+        font-size: 3vw;
+        font-weight: bold;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-left: 30vw;
+    }
+
+}
