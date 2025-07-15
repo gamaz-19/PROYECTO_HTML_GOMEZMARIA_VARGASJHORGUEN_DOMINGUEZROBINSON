@@ -11,4 +11,164 @@
 
 body{
     margin: 0;
+    background-color: black;
+    background-image: url("../images/fondoInicial.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+
+.login{
+    background-color: white;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 4rem;
+    width: 40vw;
+    height: 31vw;
+    /* height: 480px;
+    min-height: 400px;
+    max-height: 600px; */
+    padding: 2rem 2rem 2rem 2rem;
+    animation: login 3.5s 1;
+    opacity: 1;
+    overflow: hidden;
+}
+
+
+.login input{
+    border-radius: 1rem;
+    width:100%;
+    height: 1.7rem;
+    border: solid 1px #ccc;
+    font-size: 0.95rem;
+    padding-left: 0.7rem;
+}
+
+.formulario{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: left;
+}
+
+label{
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF721B;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    display: inline-block;
+
+}
+
+a:hover {
+    background-color: #e05d00;
+}
+
+.logo{
+    width: 5rem;
+
+}
+
+
+.logo-tr{
+    width: 9rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    animation: logo 2s 1;
+}
+.problems{
+    font-size: 0.65rem !important;
+    font-weight: lighter;
+    color: #686767;
+}
+
+    
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes login {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}  
+
+@media screen and (max-width: 480px) {
+  .login {
+    width: 70vw;
+    height: 160vw;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: #FF721B solid 3px;
+  }
+
+  .login h1 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+
+.login p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.formulario{
+    margin-bottom: 2rem;
+}
+
+  .logo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 7rem;
+  }
+  
+  .logo-tr {
+    width: 8rem;
+  }
 }
