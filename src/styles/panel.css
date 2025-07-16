@@ -345,7 +345,6 @@ a{
 
 
 
-
 .account {
     position: relative;
     display: flex;
@@ -399,9 +398,7 @@ a{
 }
 
 
-
-
-/*Version iphone 14 pro max*/
+/*Version iphone 10 pro max*/
 
 @media screen and (max-width: 428px) {
     body {
@@ -500,7 +497,6 @@ a{
         text-decoration: none;
     }
 
-    
     .iconsTopD {
         width: 4.5vw;
     }
@@ -533,51 +529,6 @@ a{
         background-color:rgb(251, 99, 43);
         padding: 0.3vw;
     }
-
-
-    .account {
-        display: flex;
-        flex-direction: row;
-        width: 15vw;
-        margin: 0;
-        gap: 20vw;
-        justify-content: space-around;
-        margin-left: 55vw;
-        position: relative;
-    }
-
-    .salir {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 1vw;
-    }
-
-    .opcion {
-        right: -10vw;
-        min-width: 35vw;
-        margin-top: 2vw;
-        border-radius: 3vw;
-    }
-
-    .opcion a {
-        font-size: 6vw;
-        padding: 3vw 4vw;
-        text-align: center;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
     .panel {
         font-size: 5vw;
@@ -803,3 +754,35 @@ a{
         margin-left: 30vw;
     }
 
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        width: 15vw;
+        margin: 0;
+        gap: 20vw;
+        justify-content: space-around;
+        margin-left: 55vw;
+        position: relative;
+    }
+
+    .salir {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1vw;
+    }
+
+    .opcion {
+        right: -10vw;
+        min-width: 35vw;
+        margin-top: 2vw;
+        border-radius: 3vw;
+    }
+
+    .opcion a {
+        font-size: 6vw;
+        padding: 3vw 4vw;
+        text-align: center;
+    }
+}
